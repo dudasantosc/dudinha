@@ -12,3 +12,15 @@ color: var(--branco-principal);
     margin: 0;
     padding: 0;
 }
+.cabecalho{
+    width: 200%;
+}
+
+.container {
+    height: 100vh;
+}
+.principal {
+    background-image: url("animated-disney-castle-has6vy47k75d0bzs.jpg");
+    background-repeat:no-repeat ;
+    background-size:auto;
+}
