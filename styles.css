@@ -1,13 +1,15 @@
 :root {
-    --branco-principal: #5634f1;
-    --cinza-secundario: #574de4;
-    --botao-azul: #167BF7;
+    --branco-principal: #f7f7f7;
+    --cinza-secundario: #070707;
+    --botao-azul: #031546;
     --cor-de-fundo: #e3e6ee;
 }
-body {
+.corpo{
     background-color: var(--cor-de-fundo);
 color: var(--branco-principal);
 background-color: black;
+background-image: url(disney-plus-1400x825.jpg);
+background-repeat: no-repeat;
 }
 * {
     margin: 0;
@@ -21,12 +23,20 @@ background-color: black;
   
     background-repeat:no-repeat ;
     background-size:auto;
+    display:inline-block;
+    
 }
 
 .fotoprincipal{
 
-width: 1800px;
+width: 2000px;
 
+}
 
-
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
 }
