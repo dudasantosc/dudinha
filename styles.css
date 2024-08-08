@@ -3,12 +3,13 @@
     --cinza-secundario: #070707;
     --botao-azul: #031546;
     --cor-de-fundo: #e3e6ee;
+    --fonte-principal: 'Inter';
 }
 .corpo{
     background-color: var(--cor-de-fundo);
 color: var(--branco-principal);
 background-color: black;
-background-image: url(disney-plus-1400x825.jpg);
+background-image: url(disney-plus-streaming-service-showcasing-popular-content-and-characters-z4ihs4vo4ho3v0r0.jpg);
 background-repeat: no-repeat;
 }
 * {
@@ -18,6 +19,8 @@ background-repeat: no-repeat;
 
 .container {
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 .principal {
   
@@ -39,4 +42,17 @@ width: 2000px;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
+}
+ 
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
