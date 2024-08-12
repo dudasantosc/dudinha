@@ -42,6 +42,8 @@ width: 2000px;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao_secundario {
@@ -55,4 +57,7 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+}
+.container__imagem {
+    margin: 1em 0 2em 0;
 }
