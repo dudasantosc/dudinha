@@ -64,3 +64,26 @@ body {
 .container__caixa {
     margin: 0 6em;
 } 
+
+.textodynei{
+
+font-size: 90%;
+
+}
+
+.texto3{
+font-size: 90%;
+
+
+}
+.rodape{
+
+background: transparent;
+display: flex;
+
+}
+.oi{
+    margin: 180px;
+    font-size: 1%;
+    color: #070707;
+}
